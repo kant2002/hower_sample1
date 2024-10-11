@@ -20,10 +20,10 @@ body.addEventListener("keydown", function (ev) {
 const gameField = document.getElementById("gameField");
 const размерУровня = { ширина: 4, высота: 4 };
 const игровыеДанные = [
-    ['w', 'w', 'w', 'w'],
-    ['w', 'w', 'w', 'w'],
-    ['w', 'w', 'w', 'w'],
-    ['w', 'w', 'w', 'w'],
+    ['д', 'д', 'д', 'д'],
+    ['д', 'д', 'д', 'д'],
+    ['д', 'д', 'д', 'д'],
+    ['д', 'д', 'д', 'д'],
 ];
 let текущаяПозиция = { x: 0, y: 0 };
 let пустойСтатусДвижения = {
