@@ -41,6 +41,7 @@ let звук = new Howl({
     volume: 1.0
 });
 let шаги = звук.play('шаги');
+звук.pause(шаги)
 
 setInterval(function () {
     if (статусДвижения.вниз) {
